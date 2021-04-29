@@ -1,0 +1,36 @@
+.container{
+    display:flex;
+    border: 2px solid black;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+
+#rojo{
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: relative;
+}
+
+#azul{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+}
+
+#verde{
+    width: 200px;
+    height: 200px;
+    background: green;
+    position: relative;
+}
+
+span{
+    color: white;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+
+}
