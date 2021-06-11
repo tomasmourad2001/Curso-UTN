@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function contar(){
+            alert('Contiene ' + document.form1.text1.value.length +' caracteres')
+        }
+    </script>
+</head>
+<body>
+    <h1>CONTADOR DE CARACTERES</h1>
+    <form name="form1">
+        <textarea name="text1" cols="65" rows="10"></textarea>
+        <input style="background-color:lightblue; border-radius: 5px; padding: 10px;" type="button" onclick="contar()" value="Contar">
+    </form>
+</body>
+</html>
