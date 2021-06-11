@@ -1,0 +1,46 @@
+h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body{
+    background-color: black;
+}
+
+
+#rojo{
+    background-color: red;
+    color: white;
+    width: 10em;
+    height: 10em;
+    text-align: center;
+}
+
+#azul{
+    background-color: blue;
+    color: white;
+    width: 10em;
+    height: 10em;
+    text-align: center;
+}
+
+#verde{
+    background-color: green;
+    color: white;
+    width: 10em;
+    height: 10em;
+    text-align: center;
+}
+
+.fondo.fondoRojo{
+    background-color: red;
+}
+
+.fondo.fondoAzul{
+    background-color: blue;
+}
+
+.fondo.fondoVerde{
+    background-color: green;
+}

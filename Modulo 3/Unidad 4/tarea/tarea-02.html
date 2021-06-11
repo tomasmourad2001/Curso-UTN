@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tarea-02.css">
+</head>
+
+<body class="fondo">
+
+    <h1>Cambia el color del fondo</h1>
+
+    <div><button class="boton" id="rojo">Rojo</button></div>
+    <div><button class="boton" id="azul">Azul</button></div>
+    <div><button class="boton" id="verde">Verde</button></div>
+
+
+    <script>
+        var fondo = document.getElementsByClassName('fondo')[0];
+        var rojo = document.getElementById('rojo')
+        var azul = document.getElementById('azul')
+        var verde = document.getElementById('verde')
+
+        rojo.addEventListener('click', function() {
+            fondo.classList.toggle('fondoRojo')
+        });
+
+        azul.addEventListener('click', function() {
+            fondo.classList.toggle('fondoAzul')
+        });
+
+        verde.addEventListener('click', function() {
+            fondo.classList.toggle('fondoVerde')
+        });
+
+    </script>
+
+</body>
+
+</html>
